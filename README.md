@@ -3,7 +3,7 @@
 ## About:
 
 Medialender is a responsive full stack web application for an imaginary movie renting / management business.
-Users can sign-up and can access / modify data based on their level of authorization.
+Users can sign-up and access / modify data based on their level of authorization.
 
 ## Roles:
 
