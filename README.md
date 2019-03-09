@@ -21,4 +21,4 @@ Users can sign-up and can access / modify data based on their level of authoriza
 
 `Back-end:` Built with using NodeJS and Express, along with some handy npm packages. Database is running on MongoDB Atlas cloud service.
 
-###### Live version: https://medialenderonline.herokuapp.com
+## Live version: https://medialenderonline.herokuapp.com
