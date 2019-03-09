@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client-medialender-react/node_modules/
+server-medialender-api-node/node_modules/
+client-medialender-react/.pnp
+client-medialender-react/pnp.js
+
+
+# testing
+client-medialender-react/coverage
+server-medialender-api-node/tests/
+
+# production
+client-medialender-react/build
+server-medialender-api-node/config/default.json
+
+# misc
+client-medialender-react/DS_Store
+server-medialender-api-node/DS_Store
+client-medialender-react/env
+client-medialender-react/env.local
+client-medialender-react/env.development
+client-medialender-react/env.development.local
+client-medialender-react/env.test.local
+client-medialender-react/env.production.local
+
+client-medialender-react/npm-debug.log*
+client-medialender-react/yarn-debug.log*
+client-medialender-react/yarn-error.log*
+server-medialender-api-node/logfile.log

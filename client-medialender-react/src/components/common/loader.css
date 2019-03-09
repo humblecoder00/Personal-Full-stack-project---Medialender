@@ -1,0 +1,26 @@
+.loader {
+  position: absolute;
+  top: calc(50% - 2em);
+  left: calc(50% - 2em);
+  width: 4em;
+  height: 4em;
+  border: 1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1em solid #191970;
+  border-radius: 50%;
+  animation: load8 1s infinite linear;
+  transition: opacity 0.5s;
+  z-index: 1;
+}
+
+.loader--hide {
+  opacity: 0;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

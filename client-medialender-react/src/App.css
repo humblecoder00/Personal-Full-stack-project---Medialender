@@ -1,0 +1,119 @@
+.Navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: block;
+  width: 100vw;
+  background: #000080;
+  border-bottom: solid 0.1px white;
+}
+
+.Navbar__container {
+  width: 100%;
+  background-color: white;
+  height: 7em;
+  margin-bottom: 1.875rem;
+  display: block;
+}
+
+.Navbar__logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000080;
+  margin: 0;
+  padding: 0.5em;
+  width: 100vw;
+  border-bottom: solid 0.1px white;
+}
+
+.Navbar__item {
+  display: inline-block;
+}
+
+.Navbar__link {
+  display: inline-block;
+  min-width: 150px;
+  height: 3.125rem;
+  text-align: center;
+  line-height: 3.125rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  font-size: 0.8em;
+  color: #fff;
+  background: #191970;
+  text-decoration: none;
+  border: solid 0.1px white;
+}
+
+.Navbar__link:hover {
+  background: #007bff;
+  color: white;
+}
+
+.Navbar__link--active {
+  font-weight: bold;
+  background: #007bff;
+  color: white;
+}
+
+.Navbar__Icon {
+  display: none;
+  width: 100vw;
+  height: 2em;
+}
+
+.Navbar__show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #191970;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .Navbar,
+.Navbar__link {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-collapse .collapse {
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .Navbar {
+    position: static;
+    display: none;
+  }
+
+  .Navbar__item {
+    margin-bottom: 1px;
+  }
+
+  .Navbar .Navbar__item,
+  .Navbar__link {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+
+  .Navbar__show-menu {
+    display: block;
+  }
+
+  .Navbar__Icon {
+    display: block;
+    position: static;
+  }
+}

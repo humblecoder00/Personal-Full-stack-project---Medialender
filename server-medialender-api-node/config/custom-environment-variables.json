@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "medialender_jwtPrivateKey",
+  "db": "MEDIALENDER_DB"
+}
