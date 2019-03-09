@@ -1,4 +1,4 @@
-# MEDIALENDER v1: A PERSONAL MERN (MongoDB, Express, React, Node) STACK PROJECT:
+# Medialender v1: A Personal MERN (MongoDB, Express, React, Node) Stack Project:
 
 ## About:
 
