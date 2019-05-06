@@ -17,7 +17,7 @@ Users can sign-up and access / modify data based on their level of authorization
 
 ## Main technologies used during development:
 
-`Front-end:` Built with using ReactJS as main framework, along with some handy npm packages. Bootstrap for speeding the CSS work as well as custom hard coded CSS on some areas (example: Responsive Navbar Menu, Loading spinner)
+`Front-end:` Built with using ReactJS, along with some handy npm packages. Bootstrap for speeding the CSS work as well as custom hard coded CSS on some areas (example: Responsive Navbar Menu, Loading spinner)
 
 `Back-end:` Built with using NodeJS and Express, along with some handy npm packages. Database is running on MongoDB Atlas cloud service.
 
