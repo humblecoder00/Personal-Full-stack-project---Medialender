@@ -23,7 +23,7 @@ Users can sign-up and access / modify data based on their level of authorization
 
 ## Credits:
 Developed based on Mosh Hamedani's "Vidly" project and added extra features and functionalities.
-"Vidly" is featured on his "Mastering React" and "The Complete NodeJS" courses:
+"Vidly" is featured on his "Mastering React" and "The Complete Node.js" courses:
 
 https://codewithmosh.com/p/mastering-react
 
