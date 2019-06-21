@@ -21,4 +21,11 @@ Users can sign-up and access / modify data based on their level of authorization
 
 `Back-end:` Built with using NodeJS and Express, along with some handy npm packages. Database is running on MongoDB Atlas cloud service.
 
+## Credits:
+Developed based on Mosh Hamedani's "Vidly" project and added extra features and functionalities.
+"Vidly" is featured on his "Mastering React" and "The Complete NodeJS" courses:
+https://codewithmosh.com/p/mastering-react
+https://codewithmosh.com/p/the-complete-node-js-course
+
+
 ## Live version: https://medialenderonline.herokuapp.com
